@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+  src: local('Montserrat'),
+  url('../fonts/montserrat-400.woff2') format('woff2'),
+  url('../fonts/montserrat-400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+
+  font-display: swap;
+  src: local('Montserrat'),
+  url('../fonts/montserrat-500.woff2') format('woff2'),
+  url('../fonts/montserrat-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: normal;
+
+  font-display: swap;
+  src: local('Montserrat'),
+  url('../fonts/montserrat-600.woff2') format('woff2'),
+  url('../fonts/montserrat-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+
+  font-display: swap;
+  src: local('Montserrat'),
+  url('../fonts/montserrat-700.woff2') format('woff2'),
+  url('../fonts/montserrat-700.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100%;
+
+  font-family: 'Montserrat', sans-serif;
+
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  padding: 20px;
+
+  text-align: center;
+
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.header img {
+  margin: 10px auto;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header a {
+  padding: 10px;
+
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+
+  background-color: #e44cb5;
+
+  border-radius: 6px;
+}
+
+.swiper {
+  width: 80%;
+
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.swiper-wrapper {
+  list-style: none;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+  height: auto !important;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.slide img {
+  margin-top: 20px;
+  width: 80%;
+  max-height: 500px;
+  object-fit: contain;
+}
